@@ -1,0 +1,53 @@
+{
+    "products": [
+      {
+        "ean": "EAN1",
+        "price": "99.95"
+      },
+      {
+        "ean": "EAN2",
+        "price": "16.15"
+      },
+      {
+        "ean": "EAN3",
+        "price": "12"
+      }
+    ],
+    "specificPrices": [
+      {
+        "customer": "John",
+        "products": [
+          {
+            "ean": "EAN1",
+            "price": "95.99"
+          },
+          {
+            "ean": "EAN2",
+            "price": "16.15"
+          }
+        ]
+      },
+      {
+        "customer": "Mary",
+        "products": [
+          {
+            "ean": "EAN2",
+            "price": "16.05"
+          },
+          {
+            "ean": "EAN3",
+            "price": "9.99"
+          }
+        ]
+      },
+      {
+        "customer": "Lucas",
+        "products": [
+          {
+            "ean": "EAN2",
+            "price": 14
+          }
+        ]
+      }
+    ]  
+  }
